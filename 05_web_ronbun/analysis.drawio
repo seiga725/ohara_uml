@@ -1,0 +1,75 @@
+<mxfile host="65bd71144e">
+    <diagram id="2fzwzV-_AoZZnBf2Ze95" name="ページ1">
+        <mxGraphModel dx="680" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="UzeekeSZYN8J35G30nVM-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="150" as="sourcePoint"/>
+                        <mxPoint x="290" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="UzeekeSZYN8J35G30nVM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="UzeekeSZYN8J35G30nVM-4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="UzeekeSZYN8J35G30nVM-4" value="学生" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="140" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="UzeekeSZYN8J35G30nVM-7" value="メニュー画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="70" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="UzeekeSZYN8J35G30nVM-8" value="メニュー画面を&lt;div&gt;クリックする&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="155" y="83" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="UzeekeSZYN8J35G30nVM-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.973;exitY=0.475;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="UzeekeSZYN8J35G30nVM-7" target="UzeekeSZYN8J35G30nVM-10" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="360" as="sourcePoint"/>
+                        <mxPoint x="500" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="UzeekeSZYN8J35G30nVM-10" value="表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="100" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="UzeekeSZYN8J35G30nVM-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.21;exitY=0.904;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="UzeekeSZYN8J35G30nVM-10" target="UzeekeSZYN8J35G30nVM-12" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="360" as="sourcePoint"/>
+                        <mxPoint x="380" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="UzeekeSZYN8J35G30nVM-12" value="学制登録画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="220" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="UzeekeSZYN8J35G30nVM-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.013;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="UzeekeSZYN8J35G30nVM-4" target="UzeekeSZYN8J35G30nVM-12" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="360" as="sourcePoint"/>
+                        <mxPoint x="440" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="UzeekeSZYN8J35G30nVM-14" value="学生情報を&lt;div&gt;入力する&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="155" y="230" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="UzeekeSZYN8J35G30nVM-15" value="学生情報登録" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="230" width="80" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="UzeekeSZYN8J35G30nVM-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.987;exitY=0.675;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="UzeekeSZYN8J35G30nVM-12" target="UzeekeSZYN8J35G30nVM-15" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="480" y="320" as="sourcePoint"/>
+                        <mxPoint x="530" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="UzeekeSZYN8J35G30nVM-17" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;exitX=0.985;exitY=0.68;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="UzeekeSZYN8J35G30nVM-15" target="UzeekeSZYN8J35G30nVM-18" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="550" y="350" as="sourcePoint"/>
+                        <mxPoint x="710" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="UzeekeSZYN8J35G30nVM-18" value="学生オブジェクト" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="200" width="70" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
