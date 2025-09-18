@@ -1,0 +1,16 @@
+@startuml
+actor ユーザー
+participant システムメニュー
+participant 足し算入力画面
+participant 2つの整数設定
+participant RoboDog
+participant 表示画面
+
+ユーザー -> システムメニュー : 2つの整数の足し算選択
+システムメニュー -> 足し算入力画面 : 表示
+ユーザー -> 足し算入力画面 : 2つの整数を入力する
+足し算入力画面 -> 2つの整数設定 : 起動
+2つの整数設定 -> RoboDog : 2つの整数を設定
+RoboDog -> 表示画面 : 足し算結果を取得
+表示画面 -> ユーザー : 表示
+@enduml

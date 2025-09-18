@@ -1,0 +1,35 @@
+@startuml
+
+hide footbox
+skinparam boundaryBackgroundColor #D5E8D4
+skinparam controlBackgroundColor  #F8CECC
+skinparam entityBackgroundColor   #DAE8FC
+
+actor ユーザー as A
+boundary ログイン画面 as B1
+control ユーザー認証 as B2
+entity 訪問者 as B4
+boundary Welocomeページ as B5
+boundary 新規登録画面 as B6
+boundary ログイン失敗画面 as B7
+
+
+
+
+
+A -> B1: 1:ユーザーIDとパスワード入力()
+activate A
+activate B1
+
+B1 -> B2: 1.1起動()
+activate B2
+
+B2 -> B4:ユーザー認証()
+activate B4
+B4 --> B2:
+deactivate B4
+
+B2 -> B5:
+activate B5
+
+@enduml

@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="ページ1" id="wzrHKX1I_vjIXKGBhPSM">
+    <mxGraphModel dx="629" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-1" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.081;entryY=0.492;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qMHlM7ADNf1lFpIRKLix-1" target="qMHlM7ADNf1lFpIRKLix-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-3" value="新規登録画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-4" value="ユーザー情報入力" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="45" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-5" value="訪問者" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-6" value="新規登録" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="80" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-8" value="表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="230" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-9" value="表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="350" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-10" value="新規登録完了画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-11" value="登録エラーメッセージ画面&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.993;exitY=0.717;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qMHlM7ADNf1lFpIRKLix-3" target="qMHlM7ADNf1lFpIRKLix-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.962;entryY=0.708;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qMHlM7ADNf1lFpIRKLix-5" target="qMHlM7ADNf1lFpIRKLix-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.943;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qMHlM7ADNf1lFpIRKLix-5" target="qMHlM7ADNf1lFpIRKLix-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.971;entryY=0.542;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qMHlM7ADNf1lFpIRKLix-5" target="qMHlM7ADNf1lFpIRKLix-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="230" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.048;exitY=0.583;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.007;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qMHlM7ADNf1lFpIRKLix-8" target="qMHlM7ADNf1lFpIRKLix-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qMHlM7ADNf1lFpIRKLix-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.067;exitY=0.675;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qMHlM7ADNf1lFpIRKLix-9" target="qMHlM7ADNf1lFpIRKLix-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="310" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
