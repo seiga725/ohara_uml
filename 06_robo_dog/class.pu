@@ -17,8 +17,8 @@ class RoboDog {
  +setnewtime()
  +getMygreetintg()
  +2つの整数を設定()
- +足し算結果登録()
- +足し算結果取得()
+ +setFirtstValue()
+ +setSecondValue()
 }
 
 @enduml
