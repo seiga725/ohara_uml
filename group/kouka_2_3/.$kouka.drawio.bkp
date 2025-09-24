@@ -1,0 +1,94 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="ページ1" id="eb8-QIkNiId6h9T40fz8">
+    <mxGraphModel dx="983" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-1" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-2" value="システムメニュー" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="40" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-3" value="図書管理番号画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="130" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.013;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZSF_iaUm1rbt2E5lABp0-1" target="ZSF_iaUm1rbt2E5lABp0-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="320" as="sourcePoint" />
+            <mxPoint x="240" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-5" value="管理番号表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="130" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-6" value="図書館システム" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="130" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-7" value="貸出履歴&lt;div&gt;表示&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="390" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-9" value="利用者番号表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.947;exitY=0.708;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.038;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZSF_iaUm1rbt2E5lABp0-2" target="ZSF_iaUm1rbt2E5lABp0-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="320" as="sourcePoint" />
+            <mxPoint x="540" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.04;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.962;exitY=0.646;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZSF_iaUm1rbt2E5lABp0-3" target="ZSF_iaUm1rbt2E5lABp0-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="180" as="sourcePoint" />
+            <mxPoint x="540" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.047;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZSF_iaUm1rbt2E5lABp0-1" target="ZSF_iaUm1rbt2E5lABp0-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="320" as="sourcePoint" />
+            <mxPoint x="400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.603;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.61;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZSF_iaUm1rbt2E5lABp0-5" target="ZSF_iaUm1rbt2E5lABp0-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="370" as="sourcePoint" />
+            <mxPoint x="410" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.581;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZSF_iaUm1rbt2E5lABp0-5" target="ZSF_iaUm1rbt2E5lABp0-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="370" as="sourcePoint" />
+            <mxPoint x="250" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ZSF_iaUm1rbt2E5lABp0-7" target="ZSF_iaUm1rbt2E5lABp0-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="370" as="sourcePoint" />
+            <mxPoint x="350" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.052;exitY=0.813;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.027;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZSF_iaUm1rbt2E5lABp0-9" target="ZSF_iaUm1rbt2E5lABp0-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="370" as="sourcePoint" />
+            <mxPoint x="340" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-20" value="貸出履歴画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.005;exitY=0.604;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZSF_iaUm1rbt2E5lABp0-5" target="ZSF_iaUm1rbt2E5lABp0-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="240" as="sourcePoint" />
+            <mxPoint x="620" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-23" value="図書管理番号を入力" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="180" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSF_iaUm1rbt2E5lABp0-24" value="管理番号から貸出履歴と利用者番号の表示" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="250" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
