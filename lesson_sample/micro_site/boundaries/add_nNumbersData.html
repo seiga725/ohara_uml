@@ -1,0 +1,19 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Robodog足し算</title>
+</head>
+<body>
+    <h1>2つの整数の足し算</h1>
+    <form method="POST">
+        <label>整数1: <input type="number" name="num1" required></label><br><br>
+        <label>整数2: <input type="number" name="num2" required></label><br><br>
+        <button type="submit">計算</button>
+    </form>
+    {% if result is not none %}
+        <h2>結果: {{ result }}</h2>
+    {% endif %}
+</body>
+</html>
