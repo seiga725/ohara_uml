@@ -53,11 +53,11 @@ def set_first_value(first_value) -> None:
     with open(ROBODOG_FILE, 'w', encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-def set_first_value(first_value) -> None:
+def set_second_value(second_value) -> None:
     """名前をJSONに保存"""
     with open(ROBODOG_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
-    data['my_name'] =  first_value
+    data['my_name'] = second_value
     with open(ROBODOG_FILE, 'w', encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -66,7 +66,7 @@ def get_addition() -> int:
     with open(ROBODOG_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    addition = data ['frist_value'] + data['second_value']
+    addition = data['frist_value'] + data['second_value']
 
     return addition
 
