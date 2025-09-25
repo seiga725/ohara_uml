@@ -70,6 +70,4 @@ def get_addition() -> int:
 
     return addition
 
-# set_first_value: first_valueをjsonに保存
-# set_second_value: second_valueをjsonに保存
-# get_addition: jsonから値を取ってきて、足し算した結果を返却
+
